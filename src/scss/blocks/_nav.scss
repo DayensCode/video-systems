@@ -1,0 +1,33 @@
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	&__list {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 36px;
+
+		a {
+			color: var(--text-color);
+			font-weight: 400;
+			transition: color .2s ease-in;
+
+			&:hover {
+				color: var(--accent);
+			}
+		}
+	}
+
+	&__profile {
+		color: var(--accent);
+		font-weight: 600;
+		opacity: 1;
+		transition: opacity .2s ease-in;
+
+		&:hover {
+			opacity: .8;
+		}
+	}
+}

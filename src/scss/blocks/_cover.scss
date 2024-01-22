@@ -1,0 +1,30 @@
+.cover {
+	padding: 65px 0 64px;
+	background-color: #F8F8F8;
+	background-image: url("./../../img/cover.png");
+	background-size: contain;
+	background-position: 100% 0;
+	background-repeat: no-repeat;
+
+	&__title {
+		font-size: 50px;
+		font-weight: 600;
+		line-height: 130%; /* 65px */
+		margin-bottom: 40px;
+	}
+
+	&__target-button {
+		background-color: var(--accent);
+		width: 290px;
+		height: 50px;
+		border-radius: 8px;
+		color: #FFF;
+		font-weight: 400;
+		opacity: 1;
+		transition: opacity .2s ease-in;
+
+		&:hover {
+			opacity: .8;
+		}
+	}
+}
