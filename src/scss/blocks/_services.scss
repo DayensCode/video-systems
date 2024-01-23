@@ -1,0 +1,11 @@
+.services {
+	padding: 64px 0;
+
+	&__title {
+		cursor: default;
+		font-size: 30px;
+		font-weight: 600;
+		line-height: 150%; /* 45px */
+		margin-bottom: 40px;
+	}
+}

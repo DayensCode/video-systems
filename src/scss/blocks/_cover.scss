@@ -1,12 +1,13 @@
 .cover {
 	padding: 65px 0 64px;
 	background-color: #F8F8F8;
-	background-image: url("./img/cover.png");
+	background-image: url("./../img/cover.png");
 	background-size: contain;
 	background-position: 100% 0;
 	background-repeat: no-repeat;
 
 	&__title {
+		cursor: default;
 		font-size: 50px;
 		font-weight: 600;
 		line-height: 130%; /* 65px */
