@@ -8,16 +8,37 @@
 		justify-content: space-between;
 		align-items: center;
 		gap: 36px;
+	}
 
-		a {
-			color: var(--text-color);
-			font-weight: 400;
-			transition: color .2s ease-in;
+	&__item {
+		position: relative;
+	}
 
-			&:hover {
-				color: var(--accent);
-			}
+	&__link {
+		color: var(--text-color);
+		font-weight: 400;
+		transition: color .2s ease-in;
+
+		&_sub {
+			width: 159px;
+			display: block;
+			border-top: 1px solid #E7E7E7;
+			border-bottom: 1px solid #E7E7E7;
+			line-height: 59px;
+			margin-bottom: 10px;
 		}
+
+		&:hover {
+			color: var(--accent);
+		}
+	}
+
+	&__sub-list {
+		display: none;
+		position: absolute;
+		background-color: #FFF;
+		width: 225px;
+		padding: 22px 36px 20px 28px;
 	}
 
 	&__profile {
@@ -30,4 +51,8 @@
 			opacity: .8;
 		}
 	}
+}
+
+.nav .nav__item_sub:hover .nav__sub-list {
+	display: block;
 }
