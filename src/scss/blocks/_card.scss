@@ -1,7 +1,7 @@
 .card {
-	min-height: 535px;
 
 	&__container {
+		box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.12);
 		padding: 40px 30px;
 	}
 
@@ -12,6 +12,10 @@
 	}
 
 	&__info {
+		min-height: 181px;
+		display:flex;
+		flex-direction:column;
+		flex:1;
 		margin-top: 24px;
 	}
 
@@ -29,7 +33,7 @@
 	}
 
 	&__button-wrapper {
-		margin-top: 47px;
+		margin-top: auto;
 		display: flex;
 		justify-content: space-between;
 	}

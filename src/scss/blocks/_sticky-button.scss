@@ -1,0 +1,30 @@
+.sticky-button {
+	width: 216px;
+	border-radius: 8px 0px 0px 8px;
+	background-color: var(--accent);
+	position: fixed;
+	right: 0;
+	top: 542px;
+	z-index: 1;
+	opacity: 1;
+	transition: opacity .2s ease-in;
+
+	&:hover {
+		opacity: .8;
+	}
+
+	&__link {
+		min-height: 86px;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		color: #FFF;
+		font-weight: 600;
+		line-height: 140%; /* 22.4px */
+	}
+
+	&__icon {
+		background-image: url("../../img/icons/sticky-icon.png");
+		background-size: 24px 24px;
+	}
+}
