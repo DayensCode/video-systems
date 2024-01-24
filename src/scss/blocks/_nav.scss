@@ -41,7 +41,7 @@
 		padding: 22px 36px 20px 28px;
 	}
 
-	&__profile {
+	&__phone {
 		color: var(--accent);
 		font-weight: 600;
 		opacity: 1;
@@ -55,4 +55,14 @@
 
 .nav .nav__item_sub:hover .nav__sub-list {
 	display: block;
+}
+
+@media (max-width: 1254px) {
+	.nav__list {
+		display: none;
+	}
+
+	.nav__phone {
+		display: none;
+	}
 }
