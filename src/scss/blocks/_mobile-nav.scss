@@ -24,6 +24,7 @@
 		align-items: center;
 		row-gap: 20px;
 		font-size: 28px;
+		margin-bottom: 40px;
 	}
 
 	&__link {
@@ -32,6 +33,17 @@
 
 		&:hover {
 			color: var(--accent);
+		}
+	}
+
+	&__phone {
+		color: var(--accent);
+		font-weight: 600;
+		opacity: 1;
+		transition: opacity .2s ease-in;
+
+		&:hover {
+			opacity: .8;
 		}
 	}
 }

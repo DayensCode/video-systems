@@ -3,3 +3,9 @@
 	max-width: var(--container-width);
 	margin: 0 auto;
 }
+
+@media (max-width: 770px) {
+	.container {
+		padding: 0 45px;
+	}
+}

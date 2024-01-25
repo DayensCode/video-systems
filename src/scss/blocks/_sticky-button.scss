@@ -23,8 +23,40 @@
 		line-height: 140%; /* 22.4px */
 	}
 
+	&__desktop-text {
+		display: inline;
+	}
+
+	&__mobile-text {
+		display: none;
+	}
+
 	&__icon {
 		background-image: url("../../img/icons/sticky-icon.png");
 		background-size: 24px 24px;
+	}
+}
+
+@media (max-width: 770px) {
+	.sticky-button {
+		top: 471px;
+	}
+}
+
+@media (max-width: 440px) {
+	.sticky-button {
+		width: 145px;
+	}
+
+	.sticky-button__link {
+		min-height: 54px;
+	}
+
+	.sticky-button__desktop-text {
+		display: none;
+	}
+
+	.sticky-button__mobile-text {
+		display: inline;
 	}
 }

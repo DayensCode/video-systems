@@ -1,10 +1,9 @@
 <header class="header">
     <div class="container">
         <nav class="nav">
-            <a href="#!" class="logo">
+            <a href="/" class="logo">
                 <img src="./img/icons/logo.svg" alt="Логотип">
             </a>
-
             <ul class="nav__list">
                 <li class="nav__item"><a href="#!" class="nav__link">Интернет</a></li>
                 <li class="nav__item"><a href="#!" class="nav__link">Телевидение</a></li>
@@ -26,13 +25,15 @@
                 </li>
                 <li class="nav__item"><a href="#!" class="nav__link">Контакты</a></li>
             </ul>
+            <a href="tel:+73496458000" class="nav__phone">+7 (3496) 45-80-00</a>
 
-            <a href="#!" class="nav__phone">+7 (3496) 45-80-00</a>
 
-            <a href="#!" class="mobile-nav-user"><img src="./img/icons/user.svg"></a>
-            <button class="mobile-nav-btn">
-                <div class="nav-icon"></div>
-            </button>
+            <div class="mobile-nav-wrapper">
+                <a href="#!" class="mobile-nav-user"><img src="./img/icons/user.svg"></a>
+                <button class="mobile-nav-btn" type="button">
+                    <div class="nav-icon"></div>
+                </button>
+            </div>
         </nav>
         @@include('sticky-button.html')
     </div>

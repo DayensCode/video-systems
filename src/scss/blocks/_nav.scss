@@ -11,6 +11,7 @@
 	}
 
 	&__item {
+		border: 1px red solid;
 		position: relative;
 	}
 
@@ -42,6 +43,8 @@
 	}
 
 	&__phone {
+		border: 1px red solid;
+		margin-left: 20px;
 		color: var(--accent);
 		font-weight: 600;
 		opacity: 1;
@@ -55,6 +58,12 @@
 
 .nav .nav__item_sub:hover .nav__sub-list {
 	display: block;
+}
+
+@media (max-width: 1440px) {
+	.nav__list {
+		gap: 15px;
+	}
 }
 
 @media (max-width: 1254px) {

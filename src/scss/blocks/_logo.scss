@@ -1,0 +1,14 @@
+.logo {
+	display: flex;
+	align-self: center;
+	border: 1px red solid;
+	width: 199px;
+	height: 43px;
+	margin-right: 20px;
+}
+
+@media (max-width: 440px) {
+	.logo {
+		margin-right: 10px;
+	}
+}

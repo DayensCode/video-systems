@@ -12,10 +12,9 @@
 		<header class="header">
     <div class="container">
         <nav class="nav">
-            <a href="#!" class="logo">
+            <a href="/" class="logo">
                 <img src="./img/icons/logo.svg" alt="Логотип">
             </a>
-
             <ul class="nav__list">
                 <li class="nav__item"><a href="#!" class="nav__link">Интернет</a></li>
                 <li class="nav__item"><a href="#!" class="nav__link">Телевидение</a></li>
@@ -37,20 +36,23 @@
                 </li>
                 <li class="nav__item"><a href="#!" class="nav__link">Контакты</a></li>
             </ul>
+            <a href="tel:+73496458000" class="nav__phone">+7 (3496) 45-80-00</a>
 
-            <a href="#!" class="nav__phone">+7 (3496) 45-80-00</a>
 
-            <a href="#!" class="mobile-nav-user"><img src="./img/icons/user.svg"></a>
-            <button class="mobile-nav-btn">
-                <div class="nav-icon"></div>
-            </button>
+            <div class="mobile-nav-wrapper">
+                <a href="#!" class="mobile-nav-user"><img src="./img/icons/user.svg"></a>
+                <button class="mobile-nav-btn" type="button">
+                    <div class="nav-icon"></div>
+                </button>
+            </div>
         </nav>
         <div class="sticky-button">
 	<a href="#!" class="sticky-button__link">
-		<span>Оплатить услуги</span>
+		<span class="sticky-button__desktop-text">Оплатить услуги</span>
+		<span class="sticky-button__mobile-text">Оплатить</span>
 		<img class="sticky-button__icon" src="./img/icons/sticky-icon.svg" alt="Оплата">
 	</a>
-</div> 
+</div>
     </div>
 </header>
 <div class="mobile-nav">
@@ -63,83 +65,20 @@
 		<li><a href="#!" class="mobile-nav__link">Информация</a></li>
 		<li><a href="#!" class="mobile-nav__link">Контакты</a></li>
 	</ul>
+	<a href="tel:+73496458000" class="mobile-nav__phone">+7 (3496) 45-80-00</a>
 </div>
 
 		<main>
 			<section class="cover">
-	<div class="container">
-		<h1 class="cover__title">Системы видеонаблюдения<br>по отличной цене<br>в Ноябрьске</h1>
-		<button class="cover__target-button">Подключить</button>
-	</div>
+	<a href="#!" class="cover__link">
+		<div class="container">
+			<img src="./img/cover.png" alt="Камеры видеонаблюдения" class="cover__picture">
+			<h1 class="cover__title">Системы видеонаблюдения<br>по отличной цене<br>в Ноябрьске</h1>
+			<button class="cover__target-button" type="button">Подключить</button>
+		</div>
+	</a>
 </section>
-			<section class="services">
-	<div class="container">
-		<h2 class="services__title">Доступные услуги</h2>
-		<ul class="cards-list">
-	<li class="card-list__item">
-	<a href="#!" class="card">
-		<div class="card__container">
-			<img src="./img/cards/services-1.jpg" alt="Городская камера" class="card__image">
-			<div class="card__info">
-				<h3 class="card__title">Городские камеры</h3>
-				<p class="card__text">Будьте в курсе всех событий не выходя из дома</p>
-				<div class="card__button-wrapper">
-					<p class="price">
-	0
-	<span class="price__parts">
-		<span class="price__currency">руб</span>
-		<span class="price__period">мес</span>
-	</span>
-</p>
-					<button class="card__button">Узнать подробнее</button>
-				</div>
-			</div>
-		</div>
-	</a>
-</li><li class="card-list__item">
-	<a href="#!" class="card">
-		<div class="card__container">
-			<img src="./img/cards/services-2.jpg" alt="Городская камера" class="card__image">
-			<div class="card__info">
-				<h3 class="card__title">Дворовые камеры</h3>
-				<p class="card__text">Наблюдайте за вашим имуществом не выходя из дома через любое устройство</p>
-				<div class="card__button-wrapper">
-					<p class="price">
-	0
-	<span class="price__parts">
-		<span class="price__currency">руб</span>
-		<span class="price__period">мес</span>
-	</span>
-</p>
-					<button class="card__button">Узнать подробнее</button>
-				</div>
-			</div>
-		</div>
-	</a>
-</li><li class="card-list__item">
-	<a href="#!" class="card">
-		<div class="card__container">
-			<img src="./img/cards/services-3.jpg" alt="Городская камера" class="card__image">
-			<div class="card__info">
-				<h3 class="card__title">Персональные камеры</h3>
-				<p class="card__text">Где бы вы ни находились, вы всегда можете узнать о происходящем дома с любого устройства</p>
-				<div class="card__button-wrapper">
-					<p class="price">
-	0
-	<span class="price__parts">
-		<span class="price__currency">руб</span>
-		<span class="price__period">мес</span>
-	</span>
-</p>
-					<button class="card__button">Узнать подробнее</button>
-				</div>
-			</div>
-		</div>
-	</a>
-</li>
-</ul>
-	</div>
-</section>
+			
 		</main>
 		<script src="./js/index.bundle.js"></script>
 	</body>

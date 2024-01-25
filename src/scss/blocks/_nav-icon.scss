@@ -1,3 +1,8 @@
+.mobile-nav-wrapper {
+	display: flex;
+	gap: 168px;
+}
+
 .mobile-nav-user {
 	display: none;
 	opacity: 1;
@@ -98,5 +103,17 @@
 
 	.mobile-nav-btn {
 		display: flex;
+	}
+}
+
+@media (max-width: 770px) {
+	.mobile-nav-wrapper {
+		gap: 71px;
+	}
+}
+
+@media (max-width: 440px) {
+	.mobile-nav-wrapper {
+		gap: 41px;
 	}
 }
