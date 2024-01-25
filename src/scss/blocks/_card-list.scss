@@ -1,5 +1,23 @@
 .cards-list {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: repeat(auto-fill, minmax(333px, 1fr));
 	column-gap: 60px;
+	row-gap: 60px;
+
+	&__item{
+		width: 100%;
+	}
+}
+
+@media (max-width: 902px) {
+	.cards-list {
+		column-gap: 10px;
+		row-gap: 10px;
+	}
+}
+
+@media (max-width: 440px) {
+	.cards-list {
+		row-gap: 30px;
+	}
 }
