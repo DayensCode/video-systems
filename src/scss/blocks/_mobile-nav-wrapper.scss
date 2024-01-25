@@ -1,0 +1,10 @@
+.mobile-nav-wrapper {
+	display: flex;
+	gap: 168px;
+}
+
+@media (max-width: 540px) {
+	.mobile-nav-wrapper {
+		gap: 31px;
+	}
+}

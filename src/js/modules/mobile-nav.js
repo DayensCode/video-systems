@@ -6,7 +6,7 @@ function mobileNav() {
 
 	navBtn.onclick = function () {
 		nav.classList.toggle('mobile-nav_open');
-		menuIcon.classList.toggle('nav-icon--active');
+		menuIcon.classList.toggle('nav-icon_active');
 		document.body.classList.toggle('no-scroll');
 	};
 }
