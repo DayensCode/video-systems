@@ -1,26 +1,16 @@
 .cover {
 	background-color: #F8F8F8;
-	position: relative;
-	height: 412px;
+	background-image: url("./../img/cover.png");
+	background-size: contain;
+	background-position: 100% 0;
+	background-repeat: no-repeat;
 
 	&__link {
 		display: block;
-	}
-
-	&__picture {
-		border: red solid 1px;
-		width: 804px;
-		height: 412px;
-		object-fit: cover;
-		position: absolute;
-		right: 0;
+		padding: 64px 0; 
 	}
 
 	&__title {
-		position: absolute;
-		top: 0;
-		padding-top: 63px;
-		border: red 1px solid;
 		color: var(--text-color);
 		cursor: default;
 		font-size: 50px;
@@ -30,9 +20,6 @@
 	}
 
 	&__target-button {
-		position: absolute;
-		bottom: 0;
-		margin-bottom: 62px;
 		background-color: var(--accent);
 		width: 290px;
 		height: 50px;
@@ -48,33 +35,33 @@
 	}
 }
 
-@media (max-width: 1240px) {
-	.cover {
-		overflow: hidden;
-		height: 400px;
-	}
-	
-	.cover__picture {
-		right: -300px;
-	}
-}
 
-@media (max-width: 1000px) {
+@media (max-width: 810px) {
+	.cover {
+		background-size: auto;
+	}
+
+	.cover__link {
+		padding: 78px 0;
+	}
+
 	.cover__title {
-		padding-top: 80px;
 		font-size: 40px;
 		line-height: 125%; /* 50px */
 	}
 
 	.cover__target-button {
 		width: 260px;
-		margin-bottom: 80px;
+		height: 50px;
 	}
 }
 
-@media (max-width: 440px) {
+@media (max-width: 650px) {
+	.cover__link {
+		padding: 60px 0;
+	}
+
 	.cover__title {
-		font-size: 38px;
-		width: 392px;
+		font-size: 28px;
 	}
 }

@@ -106,14 +106,8 @@
 	}
 }
 
-@media (max-width: 770px) {
+@media (max-width: 540px) {
 	.mobile-nav-wrapper {
-		gap: 71px;
-	}
-}
-
-@media (max-width: 440px) {
-	.mobile-nav-wrapper {
-		gap: 41px;
+		gap: 31px;
 	}
 }

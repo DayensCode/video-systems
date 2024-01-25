@@ -37,15 +37,16 @@
 	}
 }
 
-@media (max-width: 770px) {
+@media (max-width: 810px) {
 	.sticky-button {
 		top: 471px;
 	}
 }
 
-@media (max-width: 440px) {
+@media (max-width: 650px) {
 	.sticky-button {
 		width: 145px;
+		top: 421px;
 	}
 
 	.sticky-button__link {
